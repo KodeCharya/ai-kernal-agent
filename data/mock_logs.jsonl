@@ -1,0 +1,13 @@
+{"text":"kernel: blk_update_request: I/O error, dev sda, sector 4096","label":"Disk Error"}
+{"text":"EXT4-fs error (device sda1): ext4_find_entry:1452: inode #2","label":"Disk Error"}
+{"text":"kernel: Out of memory: Killed process 2765 (java) total-vm:804320kB","label":"Memory Error"}
+{"text":"page allocation failure: order:0, mode:0x140cca(GFP_HIGHUSER_MOVABLE)","label":"Memory Error"}
+{"text":"iwlwifi 0000:00:14.3: firmware crashed, restarting device","label":"Driver Error"}
+{"text":"modprobe: ERROR: could not insert 'nvidia': Unknown symbol in module","label":"Driver Error"}
+{"text":"NetworkManager[742]: <warn> device (eth0): activation failed","label":"Network Error"}
+{"text":"kernel: tcp: too many orphaned sockets","label":"Network Error"}
+{"text":"kernel panic - not syncing: Fatal exception","label":"Kernel Panic"}
+{"text":"watchdog: BUG: soft lockup - CPU#3 stuck for 23s","label":"Kernel Panic"}
+{"text":"systemd[1]: redis.service: Main process exited, status=1/FAILURE","label":"Service Crash"}
+{"text":"systemd[1]: mysql.service: Failed with result 'exit-code'","label":"Service Crash"}
+{"text":"CRON[1209]: pam_unix(cron:session): session opened for user root","label":"Unknown"}
